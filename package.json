@@ -1,0 +1,31 @@
+{
+  "name": "dom-cursor-stream",
+  "version": "1.0.0",
+  "description": "DOMCursor objects as readable streams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "zuul --open --local=12345 --ui=tape -- test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/dom-cursor-stream.git"
+  },
+  "keywords": [
+    "DOMCursor",
+    "stream"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/dom-cursor-stream/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/dom-cursor-stream",
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "readable-stream": "^1.0.33"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3",
+    "zuul": "^1.16.0"
+  }
+}
