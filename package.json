@@ -1,10 +1,11 @@
 {
   "name": "dom-cursor-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DOMCursor objects as readable streams.",
   "main": "index.js",
   "scripts": {
-    "test": "zuul --open --local=12345 --ui=tape -- test.js"
+    "test": "tape test.js",
+    "test:browser": "zuul --open --local=12345 --ui=tape -- test.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,9 @@
     "readable-stream": "^1.0.33"
   },
   "devDependencies": {
+    "faux-moz-dom": "^1.0.0",
     "tape": "^3.0.3",
+    "through2": "^0.6.3",
     "zuul": "^1.16.0"
   }
 }
